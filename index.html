@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta property="og:type" content="image"/>
+    <meta property="og:image" content="images/heckert_gnu.transp.small.png"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>403FOUND</title>
+    <meta name="keywords" content="403FOUND" />
+    <meta name="description" content="403FOUND" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="bookmark" href="favicon.ico" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Apple Touch Icons -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!--动画代码库代码结束-->
+    <!--广告弹窗代码结束-->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!--公用jq库代码结束-->
+    <script src="js/bigban.js"></script>
+    <!--调用视觉差-->
+    <script type="text/javascript" charset="utf-8">   
+        $(function() {          
+            //菜单框架自动获取高度
+            var doc_H=$(window).height();   
+            $('#hero').height(doc_H);
+            $(window).resize(function(){                                          
+                var doc_H=$(window).height();   //用到当调整浏览器窗口的大小时，发生 resize 事件。
+                $('#hero').height(doc_H);
+            });
+        });
+    </script>
+    <link href="css/examples.css" rel="stylesheet" type="text/css">
+    <!-- 加载样式代码结束 -->
+    <link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css" />
+    <!-- 触摸幻灯片样式结束 -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- 响应式代码样式结束 -->
+    <script>
+        $(function(){   
+            $(window).scroll(function() {
+                var scrollY = $(document).scrollTop();// 获取垂直滚动的距离，即滚动了多少
+                if (scrollY > 200){ //如果滚动距离大于550px则隐藏，否则删除隐藏类
+                    $('#header').addClass('mini');
+                } 
+                else {
+                    $('#header').removeClass('mini');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- logo
+    <div id="header">
+        <nav role="navigation" class="navbar navbar-style">
+            <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" title="403FOUND" class="navbar-brand"><img src="images/logo.png" class="hidden-xs hidden-sm" alt="403FOUND">
+                <span class="xs-brand hidden-xs"><img src="images/logo.png" alt="403FOUND" ></span></a>
+            </div>
+            </div>
+        </nav>
+    </div>
+    logo -->
+    <div id="main">
+        <section id="hero" class="">
+            <ul id="scene" class="scene" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15">
+                <li class="layer" data-depth="0.00"></li>
+                <!-- BG -->
+                <li class="layer" data-depth="0.10">
+		    <div class="background" data-0="transform: translate3d(0px, 0px, 0px);" data-top-bottom="transform: translate3d(0px, 300%, 0px);"></div>
+                </li>
+                <li class="layer" data-depth="0.15"><div class="triangles"></div></li>
+                <!-- logo
+                <li class="layer" data-depth="0.20">
+                    <div class="title" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img class="has-retina" src="images/logo.png" alt="Opia"><span class="line"></span></div>
+                </li>
+                logo -->
+                <li class="layer" data-depth="0.30">
+                    <div class="hero-content" data-0="opacity: 1;" data-top-bottom="opacity: 0;" >
+                        <h1>403FOUND</h1>
+                        <br />
+                        <p class="sub-title">Record the bits and pieces of life.</p>
+                    </div>
+                </li>
+                <!-- Flakes -->
+                <li class="layer" data-depth="0.40">
+                    <div class="depth-1 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth1/flakes1.png" alt="flake"></div>
+                    <div class="depth-1 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth1/flakes2.png" alt="flake"></div>
+                    <div class="depth-1 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth1/flakes3.png" alt="flake"></div>
+                    <div class="depth-1 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth1/flakes4.png" alt="flake"></div>
+                </li>
+                <li class="layer" data-depth="0.50">
+                    <div class="depth-2 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth2/flakes1.png" alt="flake"></div>
+                    <div class="depth-2 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth2/flakes2.png" alt="flake"></div>
+                </li>
+                <li class="layer" data-depth="0.60">
+                    <div class="depth-3 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth3/flakes1.png" alt="flake"></div>
+                    <div class="depth-3 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth3/flakes2.png" alt="flake"></div>
+                    <div class="depth-3 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth3/flakes3.png" alt="flake"></div>
+                    <div class="depth-3 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth3/flakes4.png" alt="flake"></div>
+                </li>
+                <li class="layer" data-depth="0.80">
+                    <div class="depth-4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth4/flakes.png" alt="flake"></div>
+                </li>
+                <li class="layer" data-depth="1.00">
+                    <div class="depth-5" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/depth5/flakes.png" alt="flake"></div>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+<script src="js/parallax.js"></script>
