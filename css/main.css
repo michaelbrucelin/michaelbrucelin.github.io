@@ -5561,14 +5561,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
  @media all and (min-width: 320px) {
 .hero-content {
-	top: 50%;
+	top: 40%;
 }
 }
 
 /* Landscape Phone */
 @media all and (min-width: 400px) {
 .hero-content {
-	top: 50%;
+	top: 40%;
 }
 .line {
 	margin-top: 10px;
@@ -5578,7 +5578,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* Tablet Portrait */
 @media all and (min-width: 700px) {
 .hero-content {
-	top: 50%;
+	top: 40%;
 }
 .title {
 	top: 20%;
